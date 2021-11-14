@@ -1,6 +1,6 @@
 # "Drivers" iOS App
 
-An iOS app which calls a demo API and retrieves sample/fictional driver location details for a given latitude and longitude. The retrieved location details are then plotted on Apple Maps and all location details can also be viewed in a list.
+An iOS app which calls a demo API and retrieves sample/fictional driver location details for a given latitude and longitude. The retrieved locations are then plotted on Apple Maps and all location details can also be viewed in a list.
 <br />
 
 *iOS, Swift, UIKit, MapKit, Cocoa Touch, URLSession, Codable, Storyboard and endeavoring to follow the MVC software architecture pattern.*
