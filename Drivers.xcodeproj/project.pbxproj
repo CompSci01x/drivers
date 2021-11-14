@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		5D86A6172741B66D00C4E01F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86A6162741B66D00C4E01F /* AppDelegate.swift */; };
 		5D86A6192741B66D00C4E01F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86A6182741B66D00C4E01F /* SceneDelegate.swift */; };
-		5D86A61B2741B66D00C4E01F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86A61A2741B66D00C4E01F /* ViewController.swift */; };
-		5D86A61E2741B66D00C4E01F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D86A61C2741B66D00C4E01F /* Main.storyboard */; };
 		5D86A6202741B67000C4E01F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D86A61F2741B67000C4E01F /* Assets.xcassets */; };
 		5D86A6232741B67000C4E01F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D86A6212741B67000C4E01F /* LaunchScreen.storyboard */; };
+		5D86A62F2741B6E000C4E01F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D86A62E2741B6E000C4E01F /* Main.storyboard */; };
+		5D86A6342741B6F000C4E01F /* MapPlotPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86A6302741B6F000C4E01F /* MapPlotPoint.swift */; };
+		5D86A6352741B6F000C4E01F /* AirspaceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86A6312741B6F000C4E01F /* AirspaceApi.swift */; };
+		5D86A6362741B6F000C4E01F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86A6322741B6F000C4E01F /* Location.swift */; };
+		5D86A6372741B6F000C4E01F /* NearbyLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86A6332741B6F000C4E01F /* NearbyLocation.swift */; };
+		5D86A6392741B6F600C4E01F /* LocationDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86A6382741B6F600C4E01F /* LocationDetailTableViewCell.swift */; };
+		5D86A63D2741B6FD00C4E01F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86A63A2741B6FD00C4E01F /* HomeViewController.swift */; };
+		5D86A63E2741B6FD00C4E01F /* AllLocationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86A63B2741B6FD00C4E01F /* AllLocationsTableViewController.swift */; };
+		5D86A63F2741B6FD00C4E01F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86A63C2741B6FD00C4E01F /* MapViewController.swift */; };
+		5D86A6412741B70300C4E01F /* AllLocationsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D86A6402741B70300C4E01F /* AllLocationsDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5D86A6132741B66D00C4E01F /* Drivers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drivers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D86A6162741B66D00C4E01F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D86A6182741B66D00C4E01F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5D86A61A2741B66D00C4E01F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5D86A61D2741B66D00C4E01F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D86A61F2741B67000C4E01F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D86A6222741B67000C4E01F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D86A6242741B67000C4E01F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D86A62E2741B6E000C4E01F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5D86A6302741B6F000C4E01F /* MapPlotPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPlotPoint.swift; sourceTree = "<group>"; };
+		5D86A6312741B6F000C4E01F /* AirspaceApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirspaceApi.swift; sourceTree = "<group>"; };
+		5D86A6322741B6F000C4E01F /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		5D86A6332741B6F000C4E01F /* NearbyLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyLocation.swift; sourceTree = "<group>"; };
+		5D86A6382741B6F600C4E01F /* LocationDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailTableViewCell.swift; sourceTree = "<group>"; };
+		5D86A63A2741B6FD00C4E01F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5D86A63B2741B6FD00C4E01F /* AllLocationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllLocationsTableViewController.swift; sourceTree = "<group>"; };
+		5D86A63C2741B6FD00C4E01F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5D86A6402741B70300C4E01F /* AllLocationsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllLocationsDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +74,53 @@
 			children = (
 				5D86A6162741B66D00C4E01F /* AppDelegate.swift */,
 				5D86A6182741B66D00C4E01F /* SceneDelegate.swift */,
-				5D86A61A2741B66D00C4E01F /* ViewController.swift */,
-				5D86A61C2741B66D00C4E01F /* Main.storyboard */,
+				5D86A62A2741B6A100C4E01F /* Models */,
+				5D86A62C2741B6AF00C4E01F /* Views */,
+				5D86A62B2741B6A700C4E01F /* Controllers */,
+				5D86A62E2741B6E000C4E01F /* Main.storyboard */,
 				5D86A61F2741B67000C4E01F /* Assets.xcassets */,
 				5D86A6212741B67000C4E01F /* LaunchScreen.storyboard */,
 				5D86A6242741B67000C4E01F /* Info.plist */,
 			);
 			path = Drivers;
+			sourceTree = "<group>";
+		};
+		5D86A62A2741B6A100C4E01F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5D86A6312741B6F000C4E01F /* AirspaceApi.swift */,
+				5D86A6322741B6F000C4E01F /* Location.swift */,
+				5D86A6302741B6F000C4E01F /* MapPlotPoint.swift */,
+				5D86A6332741B6F000C4E01F /* NearbyLocation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5D86A62B2741B6A700C4E01F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D86A63A2741B6FD00C4E01F /* HomeViewController.swift */,
+				5D86A63C2741B6FD00C4E01F /* MapViewController.swift */,
+				5D86A63B2741B6FD00C4E01F /* AllLocationsTableViewController.swift */,
+				5D86A62D2741B6C500C4E01F /* DataSources */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5D86A62C2741B6AF00C4E01F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D86A6382741B6F600C4E01F /* LocationDetailTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5D86A62D2741B6C500C4E01F /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				5D86A6402741B70300C4E01F /* AllLocationsDataSource.swift */,
+			);
+			path = DataSources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +181,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D86A62F2741B6E000C4E01F /* Main.storyboard in Resources */,
 				5D86A6232741B67000C4E01F /* LaunchScreen.storyboard in Resources */,
 				5D86A6202741B67000C4E01F /* Assets.xcassets in Resources */,
-				5D86A61E2741B66D00C4E01F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +194,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D86A61B2741B66D00C4E01F /* ViewController.swift in Sources */,
+				5D86A6342741B6F000C4E01F /* MapPlotPoint.swift in Sources */,
+				5D86A6392741B6F600C4E01F /* LocationDetailTableViewCell.swift in Sources */,
 				5D86A6172741B66D00C4E01F /* AppDelegate.swift in Sources */,
+				5D86A63F2741B6FD00C4E01F /* MapViewController.swift in Sources */,
+				5D86A6362741B6F000C4E01F /* Location.swift in Sources */,
+				5D86A6412741B70300C4E01F /* AllLocationsDataSource.swift in Sources */,
+				5D86A6352741B6F000C4E01F /* AirspaceApi.swift in Sources */,
 				5D86A6192741B66D00C4E01F /* SceneDelegate.swift in Sources */,
+				5D86A63E2741B6FD00C4E01F /* AllLocationsTableViewController.swift in Sources */,
+				5D86A63D2741B6FD00C4E01F /* HomeViewController.swift in Sources */,
+				5D86A6372741B6F000C4E01F /* NearbyLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5D86A61C2741B66D00C4E01F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5D86A61D2741B66D00C4E01F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5D86A6212741B67000C4E01F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -305,7 +361,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +388,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
